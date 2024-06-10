@@ -11,7 +11,7 @@ void print(int *arr, int s, int e){
     cout << endl;
 }
 
-bool binarySearch(int *arr , int s, int e, int k){
+bool binarySearch(int *arr , int s, int e, int p){
 
     print(arr,s,e);
      //base case
@@ -22,7 +22,7 @@ bool binarySearch(int *arr , int s, int e, int k){
 
      int mid = s + (e-s)/2;
 
-     if(arr[mid]==k){
+     if(arr[mid]==p){
         return true; 
      }
 
